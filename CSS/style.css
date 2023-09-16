@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 5px;
+    color: #716462;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.navigation {
+    background-color: #c69289;
+    color: white;
+    padding: 10px 0;
+    text-align: right;
+    font-size: 16px;
+}
+
+.button {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 10px;
+    padding: 1px;
+}
+
+nav {
+    width: 90%;
+    padding: 1%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Hero image section styles */
+.heroImg {
+    background-image: url('/images/Background\ Photo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+
+.myphoto {
+    text-align: center;
+    padding: 25px;
+}
+
+.content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #c69289;
+    color: white;
+    padding: 20px 0;
+}
+
+footer ul {
+    display: inline-block;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
